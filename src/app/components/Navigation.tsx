@@ -305,12 +305,12 @@ export default function Navigation() {
             </div>
 
             {/* CTA Button */}
-            <button className="flex items-center rounded-full bg-green-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition duration-300 hover:bg-green-600">
-              <span>Trở Thành Khách Hàng</span>
-              <div className="ml-2 rounded-full bg-white p-1">
+            <button className="flex items-center rounded-full bg-green-400 px-4 py-2 text-sm font-medium text-white shadow-sm transition duration-300 hover:bg-green-600">
+              <span className="text-black">Trở Thành Khách Hàng</span>
+              <div className="ml-2 rounded-full bg-black p-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 text-green-500"
+                  className="h-4 w-4 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -319,7 +319,7 @@ export default function Navigation() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M9 5l7 7-7 7"
+                    d="M5 19l14-14m0 0l-14 0m14 0l0 14"
                   />
                 </svg>
               </div>
@@ -430,12 +430,12 @@ export default function Navigation() {
             </div>
 
             {/* CTA Button for mobile */}
-            <button className="flex w-full items-center justify-center rounded-full bg-green-500 px-4 py-3 text-sm font-medium text-white shadow-sm">
-              <span>Trở Thành Khách Hàng</span>
-              <div className="ml-2 rounded-full bg-white p-1">
+            <button className="flex w-full items-center justify-center rounded-full bg-green-400 px-4 py-3 text-sm font-medium text-white shadow-sm">
+              <span className="text-black">Trở Thành Khách Hàng</span>
+              <div className="ml-2 rounded-full bg-black p-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 text-green-500"
+                  className="h-4 w-4 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -444,7 +444,7 @@ export default function Navigation() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M9 5l7 7-7 7"
+                    d="M5 19l14-14m0 0l-14 0m14 0l0 14"
                   />
                 </svg>
               </div>
