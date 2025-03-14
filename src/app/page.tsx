@@ -78,8 +78,10 @@ export default function HomePage() {
       </div>
 
       {/* Blog Header */}
+      {/* Blog Header */}
       <div className="container relative mx-auto px-4 py-6">
-        <div className="flex items-center justify-between">
+        {/* Desktop layout */}
+        <div className="hidden md:flex md:items-center md:justify-between">
           <div className="absolute left-10 top-1/2 -translate-y-1/2 transform">
             <Image
               src="/images/calendar.png"
@@ -90,12 +92,12 @@ export default function HomePage() {
           </div>
 
           <div className="mx-auto max-w-4xl text-center">
-            <h1 className="mb-2 text-4xl font-bold md:text-5xl">
+            <h1 className="mb-2 text-5xl font-bold">
               <span>Blog </span>
               <span className="text-green-500">FOSO</span>
               <span> – </span>
             </h1>
-            <h2 className="mb-6 text-4xl font-bold md:text-5xl">
+            <h2 className="mb-6 text-5xl font-bold">
               <span>Cập Nhật Tin Tức </span>
               <span className="rounded-lg bg-green-100 px-3 py-1 text-black">
                 Mới Nhất
@@ -113,6 +115,46 @@ export default function HomePage() {
               width={120}
               height={120}
             />
+          </div>
+        </div>
+
+        {/* Mobile layout */}
+        <div className="flex flex-col items-center md:hidden">
+          <div className="mb-4 flex w-full justify-between px-4">
+            <div>
+              <Image
+                src="/images/calendar.png"
+                alt="Calendar"
+                width={70}
+                height={70}
+              />
+            </div>
+
+            <div>
+              <Image
+                src="/images/hand-writing.png"
+                alt="Hand Writing"
+                width={70}
+                height={70}
+              />
+            </div>
+          </div>
+
+          <div className="text-center">
+            <h1 className="mb-2 text-3xl font-bold">
+              <span>Blog </span>
+              <span className="text-green-500">FOSO</span>
+              <span> – </span>
+            </h1>
+            <h2 className="mb-4 text-3xl font-bold">
+              <span>Cập Nhật Tin Tức </span>
+              <span className="rounded-lg bg-green-100 px-2 py-1 text-black">
+                Mới Nhất
+              </span>
+            </h2>
+            <p className="text-base text-gray-600">
+              Cùng FOSO khám phá kiến thức, xu hướng công nghệ và sản xuất ngay!
+            </p>
           </div>
         </div>
       </div>
